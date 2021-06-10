@@ -1,0 +1,12 @@
+{
+"port": 4547,
+"protocol": "http",
+"stubs": [
+{
+<% include CustomerFound.json %>
+},
+{
+<% include CustomerList.json %>
+}
+]
+}

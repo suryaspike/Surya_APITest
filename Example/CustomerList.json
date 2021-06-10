@@ -1,0 +1,13 @@
+"responses": [
+    {
+    "inject": "<%- stringify(filename, 'ResponseInjection\\CustomerList.js') %>"
+    }
+    ],
+    "predicates": [
+    {
+    "matches": {
+    "method" : "GET",
+    "path" : "/Blog.Api/Customers"
+    }
+    }
+    ]

@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "c4a731bd-f320-487e-bc36-6ed7dbebd998",
+		"name": "TestCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ListAllCustomers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4547/Blog.Api/Customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4547",
+					"path": [
+						"Blog.Api",
+						"Customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CustomerFound-1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4547/Blog.Api/1111/CustomerView",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4547",
+					"path": [
+						"Blog.Api",
+						"1111",
+						"CustomerView"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CustomerFound-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4547/Blog.Api/2222/CustomerView",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4547",
+					"path": [
+						"Blog.Api",
+						"2222",
+						"CustomerView"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CustomerFound-3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4547/Blog.Api/3333/CustomerView",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4547",
+					"path": [
+						"Blog.Api",
+						"3333",
+						"CustomerView"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CustomerFound-4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4547/Blog.Api/4444/CustomerView",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4547",
+					"path": [
+						"Blog.Api",
+						"4444",
+						"CustomerView"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CustomerFound-5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4547/Blog.Api/5555/CustomerView",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4547",
+					"path": [
+						"Blog.Api",
+						"5555",
+						"CustomerView"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CustomerFound-6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4547/Blog.Api/6666/CustomerView",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4547",
+					"path": [
+						"Blog.Api",
+						"6666",
+						"CustomerView"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CustomerNotFound",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4547/Blog.Api/11/CustomerView",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4547",
+					"path": [
+						"Blog.Api",
+						"11",
+						"CustomerView"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
