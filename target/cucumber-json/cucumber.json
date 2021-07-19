@@ -1,0 +1,387 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-19T11:36:56.276Z",
+        "line": 4,
+        "name": "Test List All Customers functionality",
+        "description": "",
+        "id": "customer-api-test;test-list-all-customers-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1528857900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate list all customers functionality",
+            "match": {
+              "location": "Utils.Utils.getRequest()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSample"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T11:36:57.872Z",
+        "line": 12,
+        "name": "Test correct details are fetched for customers",
+        "description": "",
+        "id": "customer-api-test;test-correct-details-are-fetched-for-customers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 62491600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate response for customer 1111 has id 1111, email testerA@abc.com, first name testerBFirst and last name testerBLast",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1111",
+                  "offset": 31
+                },
+                {
+                  "val": "1111",
+                  "offset": 43
+                },
+                {
+                  "val": "testerA@abc.com",
+                  "offset": 55
+                },
+                {
+                  "val": "testerBFirst",
+                  "offset": 83
+                },
+                {
+                  "val": "testerBLast",
+                  "offset": 110
+                }
+              ],
+              "location": "Utils.Utils.validateCustomerResponse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSample"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T11:36:57.950Z",
+        "line": 13,
+        "name": "Test correct details are fetched for customers",
+        "description": "",
+        "id": "customer-api-test;test-correct-details-are-fetched-for-customers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 62485100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate response for customer 2222 has id 2222, email testerB@abc.com, first name testerBFirst and last name testerBLast",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2222",
+                  "offset": 31
+                },
+                {
+                  "val": "2222",
+                  "offset": 43
+                },
+                {
+                  "val": "testerB@abc.com",
+                  "offset": 55
+                },
+                {
+                  "val": "testerBFirst",
+                  "offset": 83
+                },
+                {
+                  "val": "testerBLast",
+                  "offset": 110
+                }
+              ],
+              "location": "Utils.Utils.validateCustomerResponse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSample"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T11:36:58.013Z",
+        "line": 14,
+        "name": "Test correct details are fetched for customers",
+        "description": "",
+        "id": "customer-api-test;test-correct-details-are-fetched-for-customers;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46863000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate response for customer 3333 has id 3333, email testerC@abc.com, first name testerCFirst and last name testerCLast",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3333",
+                  "offset": 31
+                },
+                {
+                  "val": "3333",
+                  "offset": 43
+                },
+                {
+                  "val": "testerC@abc.com",
+                  "offset": 55
+                },
+                {
+                  "val": "testerCFirst",
+                  "offset": 83
+                },
+                {
+                  "val": "testerCLast",
+                  "offset": 110
+                }
+              ],
+              "location": "Utils.Utils.validateCustomerResponse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSample"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T11:36:58.077Z",
+        "line": 15,
+        "name": "Test correct details are fetched for customers",
+        "description": "",
+        "id": "customer-api-test;test-correct-details-are-fetched-for-customers;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42323700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate response for customer 4444 has id 3333, email testerD@abc.com, first name testerDFirst and last name testerDLast",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4444",
+                  "offset": 31
+                },
+                {
+                  "val": "3333",
+                  "offset": 43
+                },
+                {
+                  "val": "testerD@abc.com",
+                  "offset": 55
+                },
+                {
+                  "val": "testerDFirst",
+                  "offset": 83
+                },
+                {
+                  "val": "testerDLast",
+                  "offset": 110
+                }
+              ],
+              "location": "Utils.Utils.validateCustomerResponse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSample"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T11:36:58.120Z",
+        "line": 16,
+        "name": "Test correct details are fetched for customers",
+        "description": "",
+        "id": "customer-api-test;test-correct-details-are-fetched-for-customers;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46870000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate response for customer 5555 has id 5555, email testerE@abc.com, first name testerEFirst and last name testerELast",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5555",
+                  "offset": 31
+                },
+                {
+                  "val": "5555",
+                  "offset": 43
+                },
+                {
+                  "val": "testerE@abc.com",
+                  "offset": 55
+                },
+                {
+                  "val": "testerEFirst",
+                  "offset": 83
+                },
+                {
+                  "val": "testerELast",
+                  "offset": 110
+                }
+              ],
+              "location": "Utils.Utils.validateCustomerResponse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSample"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T11:36:58.167Z",
+        "line": 17,
+        "name": "Test correct details are fetched for customers",
+        "description": "",
+        "id": "customer-api-test;test-correct-details-are-fetched-for-customers;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46864800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate response for customer 6666 has id 6666, email testerF@abc.com, first name testerFFirst and last name testerFLast",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6666",
+                  "offset": 31
+                },
+                {
+                  "val": "6666",
+                  "offset": 43
+                },
+                {
+                  "val": "testerF@abc.com",
+                  "offset": 55
+                },
+                {
+                  "val": "testerFFirst",
+                  "offset": 83
+                },
+                {
+                  "val": "testerFLast",
+                  "offset": 110
+                }
+              ],
+              "location": "Utils.Utils.validateCustomerResponse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSample"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T11:36:58.214Z",
+        "line": 20,
+        "name": "Validate failure scenario",
+        "description": "",
+        "id": "customer-api-test;validate-failure-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31247500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Validate response for customer 11 has status fail, code 1, and message Customer details not found.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 31
+                },
+                {
+                  "val": "fail",
+                  "offset": 45
+                },
+                {
+                  "val": "1",
+                  "offset": 56
+                },
+                {
+                  "val": "Customer details not found.",
+                  "offset": 71
+                }
+              ],
+              "location": "Utils.Utils.validateStatusCodeMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSample"
+          }
+        ]
+      }
+    ],
+    "name": "Customer API test",
+    "description": "",
+    "id": "customer-api-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/APITest.feature",
+    "tags": []
+  }
+]
