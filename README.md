@@ -7,7 +7,7 @@
 6. Step definition is present under src/test/java/Utils
 7. Execution Report can be viewed as below -
    
-    a. /target/selenium-reports.html (Open with browser)
+    a. /target/report.html (Open with browser)
    
     b. /target/cucumber-reports/Cucumber.xml
    

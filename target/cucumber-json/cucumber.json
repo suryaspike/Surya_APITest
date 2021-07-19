@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-19T12:38:00.682Z",
+        "start_timestamp": "2021-07-19T12:40:57.134Z",
         "line": 4,
         "name": "Test List All Customers functionality",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1508991300,
+              "duration": 1431997600,
               "status": "passed"
             },
             "line": 5,
@@ -31,7 +31,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-19T12:38:02.256Z",
+        "start_timestamp": "2021-07-19T12:40:58.626Z",
         "line": 12,
         "name": "Test correct details are fetched for customers",
         "description": "",
@@ -41,7 +41,7 @@
         "steps": [
           {
             "result": {
-              "duration": 67014200,
+              "duration": 64831300,
               "status": "passed"
             },
             "line": 9,
@@ -81,7 +81,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-19T12:38:02.329Z",
+        "start_timestamp": "2021-07-19T12:40:58.695Z",
         "line": 13,
         "name": "Test correct details are fetched for customers",
         "description": "",
@@ -91,7 +91,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53856400,
+              "duration": 50862900,
               "status": "passed"
             },
             "line": 9,
@@ -131,7 +131,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-19T12:38:02.388Z",
+        "start_timestamp": "2021-07-19T12:40:58.750Z",
         "line": 14,
         "name": "Test correct details are fetched for customers",
         "description": "",
@@ -141,7 +141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 45881100,
+              "duration": 43880900,
               "status": "passed"
             },
             "line": 9,
@@ -181,7 +181,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-19T12:38:02.440Z",
+        "start_timestamp": "2021-07-19T12:40:58.799Z",
         "line": 15,
         "name": "Test correct details are fetched for customers",
         "description": "",
@@ -191,7 +191,7 @@
         "steps": [
           {
             "result": {
-              "duration": 49866000,
+              "duration": 45881900,
               "status": "passed"
             },
             "line": 9,
@@ -231,7 +231,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-19T12:38:02.493Z",
+        "start_timestamp": "2021-07-19T12:40:58.849Z",
         "line": 16,
         "name": "Test correct details are fetched for customers",
         "description": "",
@@ -241,7 +241,7 @@
         "steps": [
           {
             "result": {
-              "duration": 41887700,
+              "duration": 42434300,
               "status": "passed"
             },
             "line": 9,
@@ -281,7 +281,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-19T12:38:02.538Z",
+        "start_timestamp": "2021-07-19T12:40:58.895Z",
         "line": 17,
         "name": "Test correct details are fetched for customers",
         "description": "",
@@ -291,7 +291,7 @@
         "steps": [
           {
             "result": {
-              "duration": 43882500,
+              "duration": 46895400,
               "status": "passed"
             },
             "line": 9,
@@ -331,7 +331,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-19T12:38:02.586Z",
+        "start_timestamp": "2021-07-19T12:40:58.946Z",
         "line": 20,
         "name": "Validate failure scenario",
         "description": "",
@@ -341,7 +341,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31919700,
+              "duration": 32916300,
               "status": "passed"
             },
             "line": 21,
